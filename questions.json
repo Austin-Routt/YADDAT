@@ -1,0 +1,31 @@
+[{
+    "question": "Am concerned about others.",
+    "answer": 1,
+    "category": 1,
+    "key": 1
+},
+{
+    "question": "Am deeply moved by others misfortunes.",
+    "answer": 1,
+    "category": 1,
+    "key": 1
+},
+{
+    "question": "Make friends easily.",
+    "answer": 1,
+    "category": 1,
+    "key": 1
+},
+{
+    "question": "Would never cheat on my taxes.",
+    "answer": 1,
+    "category": 2,
+    "key": 1
+},
+{
+    "question": "Do not care about rules.",
+    "answer": 1,
+    "category": 2,
+    "key": -1
+}
+]

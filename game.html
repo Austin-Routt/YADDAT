@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>YADDAT: Yet Another D&D Alignment Test - Play</title>
+  <link rel="stylesheet" href="app.css" />
+  <link rel="stylesheet" href="game.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div id="game" class="justify-center flex-column">
+      <h2 id="question">This is where questions appear.</h2>
+      <div class="choice-container">
+        <p class="choice-prefix">5</p>
+        <p class="choice-text" data-number="5">Very Accurate (100% of the time)</p>
+      </div>
+      <div class="choice-container">
+        <p class="choice-prefix">4</p>
+        <p class="choice-text" data-number="4">Moderately Accurate (75% of the time)</p>
+      </div>
+      <div class="choice-container">
+        <p class="choice-prefix">3</p>
+        <p class="choice-text" data-number="3">Neither Accurate Nor Inaccurate (50% of the time)</p>
+      </div>
+      <div class="choice-container">
+        <p class="choice-prefix">2</p>
+        <p class="choice-text" data-number="2">Moderately Inaccurate (25% of the time)</p>
+      </div>
+      <div class="choice-container">
+        <p class="choice-prefix">1</p>
+        <p class="choice-text" data-number="1">Very Inaccurate (0% of the time)</p>
+      </div>
+      <div id="hud">
+        <div id="hud-item">
+          <p id="progressText" class="hud-prefix">
+            Question
+          </p>
+          <div id="progressBar">
+            <div id="progressBarfull"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
