@@ -665,7 +665,7 @@ getNewQuestion = () => {
         localStorage.setItem('questions', JSON.stringify(questions));
 
         //go to the end page
-        return window.location.assign('/end.html');
+        return window.location.assign('./end.html');
     }
     questionCounter++;
     progressText.innerText = "Question: " + questionCounter + "/" + MAX_QUESTIONS;
