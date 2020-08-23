@@ -35,11 +35,11 @@ const moralprogressBarfull = document.getElementById("finalmoralScoreBarfull");
 
 const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 
-const MAX_HIGH_SCORES = 5;
-const MAX_MORAL_SCORE = 160;
-const MIN_MORAL_SCORE = 32;
-const MAX_ETHIC_SCORE = 190;
-const MIN_ETHIC_SCORE = 38;
+const MAX_HIGH_SCORES  = 5;
+const MAX_MORAL_SCORE = 25;
+const MIN_MORAL_SCORE = 5;
+const MAX_ETHIC_SCORE = 25;
+const MIN_ETHIC_SCORE = 5;
 
 function normalize(val, max, min) {
     return (val - min) / (max - min);
