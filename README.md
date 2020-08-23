@@ -1497,7 +1497,7 @@ display(HTML(tabulate.tabulate(combinedfa.loadings_, headers=H,showindex=YADDATI
 </table>
 
 
-Using the factor loadings, we'll filter out questions that have an absolute correlation at or below 50%.
+Using the factor loadings, we'll filter out questions that have an absolute correlation at or below 55%.
 
 
 ```python
