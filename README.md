@@ -3,7 +3,8 @@
 Web App: [**YADDAT**](https://austin-routt.github.io/YADDAT/)    
 **Questions/Items:** 10    
 **Unidimensional Constructs:** Ethics and Morality    
-**Cronbach's alpha:** 74.99%    
+**Ethics Scale Cronbach's alpha:** 77.2%    
+**Morality Scale Cronbach's alpha:** 78.4%    
 **Cumulative Variance:** 42.12%     
 
 
