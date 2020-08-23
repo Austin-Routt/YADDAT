@@ -1823,11 +1823,11 @@ display(combinedDF_3)
 
 ## Adequacy Tests
 
-Adequacy tests must now verify that the purified dataframes are suitable for factor analysis.
+Adequacy tests must now verify that the purified dataframes are suitable for the official factor analysis.
 
 ### Bartlett’s Test
 
-Bartlett’s test of sphericity checks whether or not the observed variables intercorrelate at all using the observed correlation matrix against the identity matrix. If the test found statistically insignificant, you should not employ a factor analysis.
+Bartlett’s test of sphericity checks whether or not the observed variables intercorrelate using the observed correlation matrix against the identity matrix. If the test is statistically insignificant, greater than 0.05, you should not employ a factor analysis.
 
 
 ```python
@@ -1861,7 +1861,7 @@ display(HTML(tabulate.tabulate(table,headers=H, tablefmt='html')))
 
 ### Kaiser-Meyer-Olkin Test
 
-Kaiser-Meyer-Olkin (KMO) Test measures the suitability of data for factor analysis. It determines the adequacy for each observed variable and for the complete model. KMO estimates the proportion of variance among all the observed variable. Lower proportion id more suitable for factor analysis. KMO values range between 0 and 1. 
+Kaiser-Meyer-Olkin (KMO) Test measures the suitability of data for factor analysis. It determines the adequacy for each observed variable and for the complete model. KMO estimates the proportion of variance among all the observed variable. KMO values range between 0 and 1. 
 
 + 0.00 to 0.49 unacceptable.
 + 0.50 to 0.59 miserable.
@@ -1994,7 +1994,7 @@ plt.show()
 
 
 ```python
-# Create factor analysis object and perform factor analysis, factors are not orthogonal
+# Create factor analysis object and perform factor analysis, factors are orthogonal (varimax).
 
 combinedfa_3 = FactorAnalyzer(rotation="varimax", n_factors=2)
 
