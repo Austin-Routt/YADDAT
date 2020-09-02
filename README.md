@@ -1,3 +1,6 @@
+![]()
+<img src="./YADDAT logo.svg">
+
 # YADDAT: Yet Another D&D Alignment Test
 
 Web App: [**YADDAT**](https://austin-routt.github.io/YADDAT/)    
